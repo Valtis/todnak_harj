@@ -31,7 +31,6 @@ std::vector<int> laske_saapumisajat() {
   
   for (int i = 0; i < matkat; ++i) {
     saapumisajat.push_back(odotus(gen) + matka(gen));
-	
   }
   return saapumisajat;
 }
@@ -43,7 +42,7 @@ void tulosta_frekvenssi(const std::vector<int> &saapumisajat) {
     if (aika <= max_aika) {
       ++ehti;
     }
-	}
+  }
   
   std::cout << matkat << " matkalla ehti " << ehti << " kertaa\n";
   std::cout << "Suht. frek: " << ((double)ehti)/matkat << "\n"; 
