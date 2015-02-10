@@ -61,7 +61,7 @@ void tulosta_histogrammi(const std::vector<int> &saapumisajat) {
   }
   
   // skaalaustekijä: yksi merkki per 10 matkaa jotka osui kyseiselle ajalle
-  const int skaalaus = 40;
+  const int skaalaus = 10;
   
   std::cout << "\n\nHistogrammi: \n\n";
   
